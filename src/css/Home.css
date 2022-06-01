@@ -91,3 +91,19 @@
   padding-top: 2rem;
   margin-bottom: 4rem;
 }
+
+.section-horarios {
+  background-image: url('../imagens/fundo-cadeira.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.section-horarios h1 {
+  font-family: 'Patua One', cursive;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px black;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}

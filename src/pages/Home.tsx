@@ -2,6 +2,7 @@ import { Header } from "../components/Header";
 import { Trabalhos } from "../components/Trabalhos";
 import { Servicos } from "../components/Servicos";
 import '../css/Home.css'
+import { Horarios } from "../components/Horarios";
 
 export function Home() {
   return (
@@ -26,6 +27,7 @@ export function Home() {
         </div>
       </section>
       <Servicos />
+      <Horarios />
       <Trabalhos />
     </div>
   )

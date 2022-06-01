@@ -16,12 +16,12 @@ export function Trabalhos() {
           imagens.map((imagen,index) => (
             <div
               key={ index }
-              className="h-[250px] w-[250px] rounded-[10px] border-2 border-gray-500 bg-slate-200 hover:shadow-[0px_0px_10px_rgb(255,255,255)] hover:-translate-y-2"
+              className="h-[250px] w-[250px] border-2 border-gray-500 bg-slate-200 hover:shadow-[0px_0px_10px_rgb(255,255,255)] hover:-translate-y-2"
             >
               <img
                 src={imagen}
                 alt={imagen}
-                className="h-full w-full rounded-[10px]"
+                className="h-full w-full"
               />
             </div>
           ))
