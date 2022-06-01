@@ -1,5 +1,6 @@
 import { Header } from "../components/Header";
-import { Serviços } from "../components/Serviços";
+import { Trabalhos } from "../components/Trabalhos";
+import { Servicos } from "../components/Servicos";
 import '../css/Home.css'
 
 export function Home() {
@@ -24,7 +25,8 @@ export function Home() {
           </p>
         </div>
       </section>
-      <Serviços />
+      <Servicos />
+      <Trabalhos />
     </div>
   )
 }
