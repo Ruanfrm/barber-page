@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link{
+  @apply w-full flex items-center justify-center hover:text-brand-100 hover:border-l-4 border-brand-100
+}
+
+.menu-link {
+  @apply h-full w-[10rem] hover:text-brand-100 hover:border-b-4 border-brand-100
+}

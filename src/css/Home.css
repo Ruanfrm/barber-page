@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.img-olimpo {
+  background-image: url('../imagens/olimpo.png');
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  height: 38rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.img-olimpo button{
+  background-color: #C2A302;
+  margin-bottom: 3rem;
+  height: 2rem;
+  width: 10rem;
+  border-radius: 5px;
+  color: #010101;
+  border: none;
+  text-transform: uppercase;
+}
+
+.img-olimpo button:hover {
+  outline: 2px solid #C2A302;
+  border: 2px solid #010101;
+  box-shadow: 5px 5px 10px black;
+  transition: all 0.5 ease-in-out;
+}
+
+.section-sobre {
+  background-image: url('../imagens/difereiciais.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.section-sobre div {
+  width: 40rem;
+  text-align: center;
+  margin-right: 5rem;
+}
+
+.section-sobre h1 {
+  margin-bottom: 1rem;
+  font-size: 50px;
+  font-family: 'Patua One', cursive;
+  text-shadow: 1px 1px 10px black;
+}
+
+.section-sobre p {
+  font-size: 18px;
+  text-shadow: 1px 1px 10px black;
+}
+
+.h1-servise {
+  font-family: 'Patua One', cursive;
+  text-shadow: 1px 1px 10px black;
+  font-size: 50px;
+}

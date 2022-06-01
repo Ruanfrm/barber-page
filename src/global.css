@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply  text-zinc-100 w-screen overflow-x-hidden
+}
+
+*{
+  margin: none;
+  padding: none;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
