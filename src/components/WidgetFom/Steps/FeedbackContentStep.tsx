@@ -60,7 +60,7 @@ async function handleSubmitFeedback(e: FormEvent) {
         onSubmit={ handleSubmitFeedback }
       >
         <textarea
-          className="min-w-[304px] w-full min-h-[112px] text-sm placeholder-zinc-400 text-zinc-100 border-zinc-600 bg-transparent rounded-md focus:border-brand-500 focus:ring-brand-500 focus-ring-1 focus:outline-none resize-none scroolbar scrollbar-thumb-zinc-700 scrollbar-track-transparent scrollbar-thin"
+          className="min-w-[304px] w-full min-h-[112px] text-sm placeholder-zinc-400 text-zinc-100 border-zinc-600 bg-transparent rounded-md focus:border-brand-100 focus:ring-brand-100 focus-ring-1 focus:outline-none resize-none scroolbar scrollbar-thumb-zinc-700 scrollbar-track-transparent scrollbar-thin"
           placeholder="Conte com detalhes oque esta acontecendo..."
           onChange={({ target }) => setComment(target.value)}
         />
@@ -73,7 +73,7 @@ async function handleSubmitFeedback(e: FormEvent) {
           <button
             type="submit"
             disabled={comment.length == 0 || isSendingFeeback}
-            className="p-2 bg-brand-500 rounded-md border-transparent flex-1 flex justify-center items-center text-sm hover:bg-brand-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-900 focus:ring-brand-500 transition-colors disabled:opacity-50 disabled:hover:bg-brand-500"
+            className="p-2 bg-brand-100 text-zinc-800 rounded-md border-transparent flex-1 flex justify-center items-center text-sm hover:bg-brand-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-900 focus:ring-brand-100 transition-colors disabled:opacity-50 disabled:hover:bg-brand-100"
           >
             {isSendingFeeback ? <Loading /> : 'Enviar feedback'}
           </button>
