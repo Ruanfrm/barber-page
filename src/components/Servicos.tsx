@@ -7,9 +7,9 @@ import barba from '../imagens/barba.png';
 
 export function Servicos() {
   return(
-    <section className="h-screen">
+    <section className="h-screen mobile:h-[55rem]">
       <h1 className="h1-serv">Nossos serviços</h1>
-      <div className="h-[24rem] w-[600px] m-auto">
+      <div className="md:h-[24rem] md:w-[600px] m-auto">
         <ul className="flex flex-wrap justify-around">
           <li className="card-serviço">
             <img src={cabelo} alt="cabelo" />

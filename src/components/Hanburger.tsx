@@ -3,7 +3,7 @@ import { List } from 'phosphor-react';
 
 export function Hamburger() {
   return(
-    <Popover className="absolute top-5 right-5 flex flex-col items-end sm:invisible ">
+    <Popover className="mobile:fixed absolute top-5 right-5 flex flex-col items-end sm:invisible ">
     <Popover.Button className="text-zinc-400 hover:text-zinc-100 transition-all duration-500 ease-linear">
       <List size={32} />
     </Popover.Button>

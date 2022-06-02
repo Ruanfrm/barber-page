@@ -43,9 +43,7 @@
 }
 
 .section-sobre div {
-  width: 40rem;
   text-align: center;
-  margin-right: 5rem;
 }
 
 .section-sobre h1 {
@@ -102,7 +100,6 @@
   font-family: 'Patua One', cursive;
   text-transform: uppercase;
   text-shadow: 1px 1px 10px black;
-  font-size: 50px;
   text-align: center;
   padding-top: 2rem;
   margin-bottom: 2rem;

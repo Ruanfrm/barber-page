@@ -11,8 +11,8 @@ export function Home() {
       <div className="img-olimpo">
         <button>Saiba Mais</button>
       </div>
-      <section className="section-sobre">
-        <div>
+      <section className="section-sobre mobile:h-[50rem]  mobile:flex mobile:flex-col mobile:items-center mobile:justify-center">
+        <div className="w-[50%] mr-16 mobile:w-[80%] mobile:mr-0">
           <h1>Sobre</h1>
           <p>
           A Confraria da Barba é a barbearia da sua época. Focada em excelência, a Confraria
