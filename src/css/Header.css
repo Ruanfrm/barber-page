@@ -9,3 +9,11 @@
 .menu-link {
   @apply h-full w-[10rem] hover:text-brand-100 hover:border-b-4 border-brand-100
 }
+
+.menu-link a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}

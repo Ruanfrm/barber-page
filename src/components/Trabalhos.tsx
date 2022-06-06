@@ -9,7 +9,7 @@ import smile from '../imagens/smile.png';
 export function Trabalhos() {
   const imagens = [nevou, dani, fael, degrade, kauan, lucas, smile];
   return (
-    <section className="h-[120vh] mobile:h-[140rem] servises-section">
+    <section className="h-[120vh] mobile:h-[140rem] tablet:h-[80rem] servises-section">
       <h1 className="text-center py-4 h1-servise mb-8">Alguns Trabalhos</h1>
       <div className="h-[558px] w-[90%] mx-auto flex flex-wrap items-center justify-around">
         {

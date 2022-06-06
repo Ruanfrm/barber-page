@@ -3,15 +3,16 @@ import { Trabalhos } from "../components/Trabalhos";
 import { Servicos } from "../components/Servicos";
 import '../css/Home.css'
 import { Horarios } from "../components/Horarios";
+import { Contatos } from "../components/Contatos";
 
 export function Home() {
   return (
     <div className="w-screen">
       <Header/>
       <div className="img-olimpo">
-        <button>Saiba Mais</button>
+        <button><a href="#sobre">Saiba Mais</a></button>
       </div>
-      <section className="section-sobre mobile:h-[50rem]  mobile:flex mobile:flex-col mobile:items-center mobile:justify-center">
+      <section id="sobre" className="section-sobre mobile:h-[50rem]  mobile:flex mobile:flex-col mobile:items-center mobile:justify-center">
         <div className="w-[50%] mr-16 mobile:w-[80%] mobile:mr-0">
           <h1>Sobre</h1>
           <p>
@@ -29,6 +30,7 @@ export function Home() {
       <Servicos />
       <Horarios />
       <Trabalhos />
+      <Contatos />
     </div>
   )
 }
