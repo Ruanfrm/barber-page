@@ -4,6 +4,7 @@ import { Servicos } from "../components/Servicos";
 import '../css/Home.css'
 import { Horarios } from "../components/Horarios";
 import { Contatos } from "../components/Contatos";
+import Footer from "../components/Footer";
 
 export function Home() {
   return (
@@ -16,14 +17,7 @@ export function Home() {
         <div className="w-[50%] mr-16 mobile:w-[80%] mobile:mr-0">
           <h1>Sobre</h1>
           <p>
-          A Confraria da Barba é a barbearia da sua época. Focada em excelência, a Confraria
-          conta com tudo que o homem moderno precisa. Um ambiente confortável, descontraído e
-          exclusivamente masculino, com cuidados para todos os estilos de barba e cabelo,
-          além de serviços como massagem, podologia, estética masculina e dia do noivo. Uma
-          barbearia premium, para cuidar do visual, tomar uma cerveja gelada, assistir aos
-          seus esportes favoritos ou jogar uma partida de sinuca.
-          Seja um confrade. Cadastre-se e receba as novidades, eventos e condições especiais
-          da Confraria da Barba.
+            A barbearia Olimpo é a barbearia perfeita pra você, somos totalmente focado em exelência, aqui você encontrara tudo que prescisa em um ambiente confortavel e descontraido, um lugar onde cuidamos do seu estilo para todos os gostos de barba e cabelo venha cuidar do seu visual, ou apenas nos fazer uma visita para batermos um bom papo e tomar uma cerveja gelada, assistir aos seus esporte e escutar suas musicas favoritas.
           </p>
         </div>
       </section>
@@ -31,6 +25,7 @@ export function Home() {
       <Horarios />
       <Trabalhos />
       <Contatos />
+      <Footer />
     </div>
   )
 }

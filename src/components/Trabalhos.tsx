@@ -11,7 +11,7 @@ export function Trabalhos() {
   return (
     <section className="h-[120vh] mobile:h-[140rem] tablet:h-[80rem] servises-section">
       <h1 className="text-center py-4 h1-servise mb-8">Alguns Trabalhos</h1>
-      <div className="h-[558px] w-[90%] mx-auto flex flex-wrap items-center justify-around">
+      <div className="h-[558px] w-[90%] mobile:w-[350px] mx-auto flex flex-wrap items-center justify-around">
         {
           imagens.map((imagen,index) => (
             <div

@@ -4,7 +4,7 @@ export function Horarios() {
   return(
     <section id="horarios" className="h-screen mobile:h-[70rem] tablet:h-[55rem] section-horarios">
       <h1 className=" text-[50px] mobile:text-[30px]">Horários de funcionamento</h1>
-      <div className="flex flex-col items-center mx-auto mt-12 desktop:mt-20 mobile:h-auto h-[10rem] w-[80%]">
+      <div className="z-0 flex flex-col items-center mx-auto mt-12 desktop:mt-20 mobile:h-auto h-[10rem] w-[80%]">
         <ul className="flex items-center tablet:flex-wrap tablet:w-[600px] tablet:justify-around h-full mobile:flex-col mobile:items-center ">
           <li className="li-horarios mb-4 flex flex-col items-center justify-center h-full w-[8rem]">
             <h3>
