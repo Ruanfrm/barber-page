@@ -3,8 +3,8 @@ import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
 
 
 const center = {
-  lat: -21.317612, 
-  lng: -41.623960
+  lat: -6.03121229831943, 
+  lng: -38.3478884287808
 };
 
 export default function Mapa() {
@@ -14,7 +14,7 @@ export default function Mapa() {
   })
 
   return (
-    <div className="h-[400px] w-[400px] shadow-[0px_0px_10px_rgba(0,0,0,0.9)] mobile:w-[70%]">
+    <div className="h-[400px] w-[700px] shadow-[0px_0px_10px_rgba(0,0,0,0.9)] mobile:w-[70%]">
       {  isLoaded ? (
           <GoogleMap
             mapContainerStyle={{width: '100%', height: '100%'}}
@@ -23,7 +23,7 @@ export default function Mapa() {
           >
             <Marker position={center} options={{
               label: {
-                text: "Olimpo Barber",
+                text: "Weverton barber",
                 className: "mt-[-30px]"
               }
             }} />

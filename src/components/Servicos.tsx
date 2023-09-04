@@ -39,7 +39,7 @@ export function Servicos() {
         </ul>
       <a 
         type="button"
-        href="https://wa.me/message/NU3HUQEFKORMF1"
+        href="https://sites.appbarber.com.br/barbeariadoweve-dtvx"
         target="_blank"
         className="buttons-out flex items-center bg-brand-100 mobile:px-8 mobile:mt-12 px-28 py-2 rounded-md text-black mt-36 hover:cursor-pointer"
       >

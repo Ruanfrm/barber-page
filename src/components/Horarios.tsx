@@ -10,7 +10,9 @@ export function Horarios() {
             <h3>
               SEG
             </h3>
-            <p>Fechado</p>
+            <p>09:00 AM</p>
+            <p>ÀS</p>
+            <p>21:00 PM</p>
           </li>
           <li className="li-horarios mb-4 flex flex-col items-center justify-center h-full w-[8rem]">
             <h3>
@@ -61,7 +63,7 @@ export function Horarios() {
         </ul>
         <a 
           type="button"
-          href="https://wa.me/message/NU3HUQEFKORMF1"
+          href="https://sites.appbarber.com.br/barbeariadoweve-dtvx"
           target="_blank"
           className="buttons-out flex items-center bg-brand-100 mobile:px-8 mobile:mt-12 tablet:mt-[28rem] px-28 py-2 rounded-md text-black mt-36 hover:cursor-pointer"
         >

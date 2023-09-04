@@ -17,7 +17,7 @@ export function Home() {
         <div className="w-[50%] mr-16 mobile:w-[80%] mobile:mr-0">
           <h1>Sobre</h1>
           <p>
-            A barbearia Olimpo é a barbearia perfeita pra você, somos totalmente focado em exelência, aqui você encontrara tudo que prescisa em um ambiente confortavel e descontraido, um lugar onde cuidamos do seu estilo para todos os gostos de barba e cabelo venha cuidar do seu visual, ou apenas nos fazer uma visita para batermos um bom papo e tomar uma cerveja gelada, assistir aos seus esporte e escutar suas musicas favoritas.
+            A Weverton Barber é a barbearia perfeita pra você, somos totalmente focado em exelência, aqui você encontrara tudo que prescisa em um ambiente confortavel e descontraido, um lugar onde cuidamos do seu estilo para todos os gostos de barba e cabelo venha cuidar do seu visual, ou apenas nos fazer uma visita para batermos um bom papo e tomar uma cerveja gelada, assistir aos seus esporte e escutar suas musicas favoritas.
           </p>
         </div>
       </section>
